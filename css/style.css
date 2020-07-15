@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #674baf;
+  background-image: url(/images/bg-desktop.svg);
+  color: #fff;
+}
