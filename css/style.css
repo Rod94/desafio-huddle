@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html, body {
   height: 100%;
@@ -9,8 +10,29 @@ body {
   background-color: #674baf;
   background-image: url(/images/bg-desktop.svg);
   padding: 20px 40px;
+  box-sizing: border-box;
 }
 
-.header-hubber img {
+.header-huddle img {
   width: 17%;
+}
+
+.paragraph-huddle {
+  color: #fff;
+  font: 700 35px 'Poppins', sans-serif;
+}
+
+.subparagraph-huddle {
+  color: #fff;
+  font: 400 25px 'Open Sans', sans-serif;
+}
+
+.register-huddle {
+  background-color: #fff;
+  width: 15%;
+  height: 7%;
+  border: none;
+  border-radius: 13rem;
+  font: 400 18px 'Poppins', sans-serif;
+  color: #674baf;
 }
