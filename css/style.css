@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
 html, body {
   height: 100%;
 }
@@ -6,5 +8,9 @@ body {
   max-width: 1440px;
   background-color: #674baf;
   background-image: url(/images/bg-desktop.svg);
-  color: #fff;
+  padding: 20px 40px;
+}
+
+.header-hubber img {
+  width: 17%;
 }
